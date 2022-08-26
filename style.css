@@ -7,6 +7,7 @@
 body {
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 
 .image1, .image2, .image3, .image4 { 
@@ -16,6 +17,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    
 }
 
 .image1 {
@@ -40,5 +42,29 @@ body {
 
 img {
     opacity: 0.8;
+    width: 600px; 
 }
- 
+
+.heading {
+    display: flex;
+    justify-content: center; 
+}
+
+span {
+    opacity: 0.8;
+    font-size: 3rem;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 20px 40px;
+    letter-spacing: 1rem; 
+    border-radius: 35px 0 ; 
+    outline: 8px solid purple;
+    outline-offset: 6px;
+    outline-style: inset;
+}
+
+.heading-large {
+    font-size: 4rem;
+    text-transform: uppercase;
+    outline-offset: 12px;
+}
