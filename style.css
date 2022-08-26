@@ -47,8 +47,7 @@ body {
     min-height: 100%;
 }
 
-img {
-    opacity: 0.8;
+img { 
     width: 600px; 
 }
 
@@ -72,7 +71,7 @@ span {
 }
 
 .heading-large {
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
     outline-offset: 12px;
 }
